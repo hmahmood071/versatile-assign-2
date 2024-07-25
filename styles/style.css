@@ -145,51 +145,46 @@ h3{
     text-align: left;
 }
 /* Change Your Habits */
-.change-habit-container{
-   width: 70%;
-   height: 60%;
-   margin: 0 auto;
-}
-
-.change-habit-text h2{
-   font-size: 2rem;
-   font-weight: 700;
+.change-habit-content h1{
+   font-size: 26px;
+   font-weight: 600;
    color: white;
-   text-align: center;
-   line-height:3rem;
-}
-.change-habit-text p{
-   font-size: 0.8rem;
-   font-weight: 700;
-   color: #4b4848a2;
-   text-align: center;
    line-height: 1rem;
-   margin-bottom: 2rem;
+   margin-bottom: 1rem;
+   text-align: center;
 }
-.habit-image{
+.habit-text p{
+   font-size: 12px;
+   font-weight: 200;
+   color: rgba(255, 255, 255, 0.267);
+   line-height: normal;
+   width: 30rem;
+   margin: auto;
+   text-align:center;
+   margin-bottom: 2rem;
+
+}
+.img-habit-card{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
-   text-align: center;
-   margin-bottom: 7rem;
+   gap: 1rem;
 }
-.habit-card img{
-   width: 80%;
-   height: 70%;
-   margin-bottom: 1rem;
+.img-habit-card img{
    border-radius: 50%;
 }
-
-.habit-card h3{
+.card-1, .card-2, .card-3, .card-4, h4{
    font-size: 1rem;
-   font-weight: 200;
-   color:white;
-   margin-bottom: 0.5rem;
-} 
-.habit-card p{
-   font-size: 0.7rem;
-   font-weight: 100;
-   color: #4b4848;
-   line-height: 1rem;
+   color: white;
+   line-height: normal;
+   text-align: center;
+   margin-top: 1rem;
+   margin-bottom: 13px;
+}
+.card-1, .card-2, .card-3, .card-4, p{
+   font-size: 10px;
+   color: rgba(255, 255, 255, 0.212);
+   line-height: normal;
+   width: 10rem;
 }
 /* Run-Extra section */
 .run-extra{
