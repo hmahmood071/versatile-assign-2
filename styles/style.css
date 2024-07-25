@@ -278,192 +278,194 @@ h3{
    left: 1rem;
 }
  /* BMI Calculator */
- .bmi-container{
-    width: 90%;
-    height: 15%;
-    margin: 0 auto;
-    margin-top: 5rem;
- }
+ /* BMI Calculator */
  .bmi-content h1{
-    font-size: 30px;
-    font-weight: 800;
-    color: aliceblue;
-    margin-left: 10rem;
- }
- .bmi-content p{
-    color: #4b4848;;
-    font-size: 14px;
-    margin-left: 10rem;
- }
- /* BMI Calculator Chart */
- .bmi-chart{
-    margin: 0 auto;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    
- }
- .bmi-chart-content{
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr; */
-  /* gap: 3rem; */
-    
- }
+   font-size: 30px;
+   font-weight: 800;
+   color: aliceblue;
+   margin-left: 7rem;
+   margin-bottom: 1rem;
+}
+.bmi-content p{
+   color: #4b4848;;
+   font-size: 12px;
+   margin-left: 7rem;
+   width:550px;
+}
+/* BMI Calculator Chart */
+.bmi-chart{
+   /* margin: 0 auto;
+   margin-top: 2rem;
+   margin-left: 5rem; */
+}
+.bmi-chart-content{
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+   gap: 3rem; 
+   background-color: #221e1e65;
+     
+  }
+.bmi-chart h1{
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   margin: 2rem 0;
+}
+table, tr, td{
+   margin: 3rem;
+   color: #4b4848ef;
+   border: 1px solid #4b484896;
+   border-collapse: collapse;
+   text-align: center;
+   padding:0 3rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   font-size: 14px;
+  
+}
+.form{
+   width:80%;
+}
 
- .bmi-chart h1{
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    margin: 2rem 0;
- }
- table, tr, td{
-    margin: 3rem;
-    color: #4b4848ef;
-    border: 1px solid #4b484896;
-    border-collapse: collapse;
-    text-align: center;
-    padding:0 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 14px;
-   
- }
- .form{
-    width:80%;
+select, input{
+   height: 2rem;
+   background-color: #4b4848;
+}
+.form h1{
+   font-weight: 600;
+   font-size: 1.5rem;
+   margin-bottom: 1.5rem;
+}
+.form p{
+   color: #4b4848ef;
+   font-size: 12px;
+   margin-bottom: 2rem;
+   width: 450px;
+}
+.btn-run{
+   background-color: rgb(255, 51, 0);
+   border: 1px solid orangered;
+   width: 100px;
+   height: 30px;
+   border-radius: 4rem;
+   margin-top: 1rem;
+}
+/* Meet Our Team */
+.meet-time-text h2{
+   font-size: 2rem;
+   font-weight: 700;
+   color: aliceblue;
+   text-align: center;
+   margin-bottom: 1rem;
+}
+.meet-time-text p{
+   font-size: 0.75rem;
+   font-weight: 100;
+   color: #a09d9def; 
+   text-align: center;
+   /* margin-left: 5rem; */
+   margin: auto;
+   margin-bottom: 1rem;
+   width: 500px;
+}
+.meet-card{
     
- }
- 
- select, input{
-    height: 2rem;
- }
- .form h1{
-    font-weight: 600;
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
- }
- .form p{
-    color: #4b4848ef;
-    font-size: 14px;
-    margin-bottom: 2rem;
- }
- /* Meet Our Team */
- .meet-team-container{
-    width: 85%;
-    height: 50%;
-     margin:auto; 
-    margin-top: 2rem;
- }
- 
- .meet-time-text h2{
-    font-size: 2rem;
-    font-weight: 700;
-    color: aliceblue;
-    text-align: center;
-    margin-bottom: 1rem;
- }
- .meet-time-text p{
-    font-size: 0.75rem;
-    font-weight: 100;
-    color: #4b4848ef; 
-    text-align: center;
-    margin-bottom: 1rem;
- }
- .meet-card{
-    width: 100%;
-    height: 100%;
-    
- }
- .meet-card{
-    position: relative;
- }
- .meet{
-    position: absolute;
-    bottom: 5%;
-    left: 20%;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    transform: translate(-50%, -50%);
- }
- .meet-img-row-1, .meet-img-row-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+   position: relative;
+} 
+.meet-card img{
+   width: 100%;
+   height: 100%;
+}
+.meet{
+   position: absolute;
+   bottom: 5%;
+   left: 20%;
+   color: white;
+   font-size: 14px;
+   font-weight: bold;
+   transform: translate(-50%, -50%);
+}
+.meet-img-row-1, .meet-img-row-2{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 1rem;
+  
+}
+.meet-img-row-2{
+   margin-top: 1rem;
+}
+/* Footer */
+.footer{
+   width: 100%;
+   height: 100%;
+   background-color: #4b48481f;
    
- }
- .meet-img-row-2{
-    margin-top: 1rem;
- }
- /* Footer */
- .footer{
-    width: 100%;
-    height: 100%;
-    /* margin: 0 auto; */
-    background-color: #4b48481f;
-    
- }
- .footer-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 2.5rem;
-    padding-top:2rem;
-    margin-left: 5rem;
- }
- .fitness{
-    /* width: 23%; */
-   
- }
- .fitness h1{
-    font-size: 2.2rem;
-    font-weight: 800;
-    color: #E6533c;
-    margin-bottom: 1.5rem;
- }
- .fitness p{
-    font-size: 0.75rem;
-    font-weight: 100;
-    color: #4b4848e1;
-    line-height: 1.2rem;
- }
- .get-card h3{
-    color: rgba(19, 125, 230, 0.692);
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-   
- }
- .get-card{
-    /* width: 40%; */
-    padding: 1rem;
-    /* padding-left: 12rem; */
-    
- }
- .started-card{
-    /* width: 30%; */
-    padding-right: 5rem;
- }
- .started-card h3{
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+}
+.footer-content{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 2.5rem;
+   padding-top:2rem;
+   margin-left: 5rem;
+}
+.fitness h1{
+   font-size: 2.2rem;
+   font-weight: 800;
+   color: #E6533c;
+   margin-bottom: 1.5rem;
+}
+.fitness p{
+   font-size: 0.75rem;
+   font-weight: 100;
+   color: #4b4848e1;
+   line-height: 1.2rem;
+}
+.get-card h3{
+   color: rgba(19, 125, 230, 0.692);
+   font-size: 1.5rem;
+   font-weight: 600;
+   margin-bottom: 1.5rem;
+  
+}
+.get-card{
+   padding: 1rem;
+}
+.started-card{
+   padding-right: 5rem;
+}
+.started-card h3{
+   font-size: 1.5rem;
+   color: white;
+   font-weight: 600;
+   margin-bottom: 1.5rem;
 
- }
- .list-1, .list-2 p{
-    font-size: 0.8rem;
-    font-weight: 100;
-    color: #4b4848;
-    line-height: 1.5rem;
- }
- .list-2{}
-
+}
+.list-1, .list-2 p{
+   font-size: 0.8rem;
+   font-weight: 100;
+   color: #4b4848;
+   line-height: 1.5rem;
+}
 .hr{
-    margin-bottom: 1.5rem;
+   margin-bottom: 1.5rem;
 }
 .hr p{
-    color:#4b4848;
-    margin-top: 1.5rem;
-    text-align: center;
+   color:#4b4848;
+   margin-top: 1.5rem;
+   text-align: center;
 }
+
+
+
+
+
+
+
+.footer{}
+  
+.ham-burger{
+       display: none;
+   }
 /* Responsive Starts */
 /* For Small Device */
 @media screen and (max-width:676px){
