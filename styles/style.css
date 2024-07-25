@@ -186,102 +186,97 @@ h3{
    line-height: normal;
    width: 10rem;
 }
-/* Run-Extra section */
-.run-extra{
-    width:70%;
-    height: 70%;
+/* Run an Extra Mile Easily */
+.run-mile-container{}
+.run-mile-content{
+    background-color:  rgba(255, 255, 255, 0.103);
+    border-radius: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 4rem;
-    background-color:  #4b484852;
-    border-radius: 2rem;
-   margin-left: 5rem;
-    
-}
-.run-content{
-    width: 60%;
-    height: 10rem ;
-    margin-top: 2rem;
-    margin-left: 2rem;
-}
-.run-content h1{
-    color: #FFFF;
-    font-size: 2rem;
-    font-weight: 800;
-    text-align: left;
-}
-.run-content p{
-    color: #4b4848;
-    font-size: 0.75rem;
-    font-weight: 400;
-    margin: 0.5rem;
-}
-.btn-run{
-    width: 7rem;
-    height: 2rem;
-    background-color:#E6533c; 
-    border-radius: 2rem;
-    color: #FFFF;
-    /* margin-top: 1rem; */
-}
-.img-extra img{
-    width: 300px;
-    height: 200px;
-    margin-top: 1rem;
-    margin-bottom: 0.8rem;
-    border-radius: 2rem;
-    margin-left: 1.5rem;
-}
-/* Training and Exercises */
-.training-container{
-    width: 80%;
-    height: 25rem;
-    margin-top: 5rem;
-}
-.training-content{
-    margin-left: 8rem;
-    margin-top: 2rem;
-}
-.training-content h1{
-   font-size: 2rem;
-   font-weight: 800;
-   color:white;
-  
+    height: 13rem;
 
 }
-.training-content p{
-    font-size: 0.7rem;
+.run-text h1{
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1.4rem;
+    margin-left: 2rem;
+    width: 200px;
+}
+.run-text p{
+    font-size: 12px;
+    line-height: 14px;
     font-weight: 200;
-    color: #4b4848;
-    margin-top: 12px;
-    width: 37%;
-    filter: sepia(50%);
-    margin-bottom: 2rem;
- 
- }
- .row-1{
+    color: rgba(245, 245, 220, 0.26);
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    width: 295px;
+}
+.join-now{
+    width: 7rem;
+    height: 30px;
+    border: 1px solid orangered;
+    border-radius: 4rem;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    margin-left: 2rem;
+    background-color: rgba(255, 17, 0, 0.87);
+}
+.image-run{
+    /* border: 3rem; */
+}
+.image-run img{
+    border-radius: 2rem;
+    width: 50%;
+    height: 180px;
+    margin-top: 1rem;
+    margin-left: 14rem;
+}
+/* Training and Exercises */
+.exercise-container{}
+.exercise-content{}
+.exercise-text h1{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  color:white;
+  margin-bottom: 1rem;
+}
+.exercise-text p{
+    width: 420px;
+  font-size: 10px;
+  font-weight: 200;
+  line-height: 13px;
+  color:rgba(255, 255, 255, 0.185);
+  margin-bottom: 1rem;
+}
+.exercise-images{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.exercise-images-2{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    padding-left: 10rem;
- }
- .row-2{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1.5fr;
-    padding-left: 10rem;
- }
- .row-1,.row-2, img{
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.exercise-row-1{
+    position: relative;
+}
+ .img-card img{
     width: 100%;
-    height: 12rem;
-    filter: brightness(70%);
-   
- }
- .row-2{
-    margin-top: -3rem;
- } 
- .img-card p{
-    position: absolute;
-    bottom: 70%;
- }
+    height: 225px;
+    opacity: 0.5;
+}
+.exercise-row-1 p{
+   font-size: 1rem;
+   color:rgb(61, 61, 59);
+   position: absolute;
+   top: 10rem;
+   left: 1rem;
+}
  /* BMI Calculator */
  .bmi-container{
     width: 90%;
