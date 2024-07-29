@@ -796,7 +796,7 @@ input, select{
    }
    .left p{
        color: dimgrey;
-      padding-left:2rem;
+      padding-left:0.5rem;
       font-size: 1rem;
    }
    .right{
@@ -888,7 +888,7 @@ input, select{
 }
 /* BMI Calculator */
 .bmi-content h1{
-   font-size: 4rem;
+   font-size: 3rem;
    width: 100%;
    margin-left: -2rem;
 }
